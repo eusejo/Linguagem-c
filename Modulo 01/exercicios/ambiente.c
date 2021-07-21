@@ -1,9 +1,9 @@
 #include <stdio.h>
-#import <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 void main(){
-    setlocale(0, "Portuguese");
-    printf("o %s tem %i anos\n", "Gustavo", 30);
-    printf("o seu peso atual é %.1fkg", 97.8);
-    printf("o seu sexo é %c", 'M');
+    srand(time(NULL));
+    int n = rand() % 10;
+    printf("eu gerei o numero (%i)",n);
 }

@@ -2,6 +2,6 @@
 #include <stdlib.h>
 
 void main(){
-    printf("ola, mundo")
-    system("pause")
+    printf("ola, mundo");
+    system("pause");
 }
